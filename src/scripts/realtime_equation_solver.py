@@ -188,6 +188,7 @@ if not cap.isOpened():
 else:
     count = 0 
     eqn_list = []
+    result = "Nao foi encontrada uma equacao"
     while True:
         ret, frame = cap.read()
         if not ret:
@@ -204,7 +205,7 @@ else:
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)  # Green rectangle
 
 
-        if count % 20 == 0:
+        if count % 20 == 19:
             print(eqn_list)
             real_eqn = most_frequent(eqn_list)
             print(real_eqn)
