@@ -46,4 +46,6 @@ O código deste projeto está dividido em várias partes que abrangem desde a ge
 
 3. [Script para reconhecimento das equações em tempo real](src\scripts\realtime_equation_solver.py)
 
+4. [Handwritten math symbols dataset](https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols)
+
 O código completo pode ser encontrado no arquivo principal do repositório e está documentado com explicações sobre cada função e sua utilização.
